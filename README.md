@@ -1,2 +1,43 @@
-# dotfiles
+# My Dotfiles 
+
 My personal, gruvbox themed MacOS rice! [yabai + sketchybar + skhd]
+
+Inspired heavily by the dotfiles of sketchybar creator [Felix Kratz](https://github.com/FelixKratz).
+
+<img width="1440" alt="Screenshot 2024-07-05 at 20 34 30" src="https://github.com/EbrietanPhasmid/dotfiles/assets/172548450/1909891b-1fc9-4ed6-aba3-69a451a5944a">
+
+
+# Dependencies
+
+This repo only runs on MacOS, with me currently runninf Sonoma 14.5.
+
+You will need the following packages installed. Do this through homebrew using the following commands:
+
+```
+brew install koekeishiya/formulae/yabai
+brew tap FelixKratz/formulae
+brew install sketchybar
+brew install koekeishiya/formulae/skhd
+```
+
+## Installation
+
+Once you've installed the dependencies, download this repository to your downloads folder.
+
+Then, run this command:
+
+```
+mv -rf ~/Downloads/gruvbox-dot-master/* ~/.config/
+```
+
+The config files should be successfully installed.
+
+Now, run this command to run all the services:
+
+```
+yabai --start-service
+skhd --start-service
+sketchybar --start-service
+```
+
+Thanks for using my setup!
