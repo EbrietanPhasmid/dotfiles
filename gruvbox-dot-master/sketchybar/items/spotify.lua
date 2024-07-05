@@ -5,7 +5,7 @@ local settings = require("settings")
 
 local spotify = sbar.add("item", {
   position = "center",
-  label = {string = "Varia, you're kinda cute..."},
+  label = {string = ""},
   background = {drawing = false},
   click_script = "osascript -e 'tell application \"Spotify\" to pause'",
   script = settings.PLUGIN_DIR .. "spotify.sh"
