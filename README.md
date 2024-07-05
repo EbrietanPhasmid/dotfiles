@@ -22,12 +22,12 @@ brew install koekeishiya/formulae/skhd
 
 ## Installation
 
-Once you've installed the dependencies, download this repository to your downloads folder.
+Once you've installed the dependencies, download this repository to your downloads folder and unzip it.
 
 Then, run this command:
 
 ```
-mv -rf ~/Downloads/gruvbox-dot-master/* ~/.config/
+mv -rf ~/Downloads/dotfiles-main/gruvbox-dot-master/* ~/.config/
 ```
 
 The config files should be successfully installed.
