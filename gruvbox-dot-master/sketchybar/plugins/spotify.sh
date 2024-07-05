@@ -25,5 +25,5 @@ if [[ $RUNNING -eq 0 ]] && [[ $PLAYING -eq 0 ]]; then
   fi
 else
   sketchybar -m --set $NAME drawing=on
-  sketchybar -m --set $NAME label="Varia you're kinda cute..."
+  sketchybar -m --set $NAME label=""
 fi
