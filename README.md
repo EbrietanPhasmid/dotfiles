@@ -22,6 +22,24 @@ brew install koekeishiya/formulae/skhd
 
 ## Installation
 
+First, if you want to use my kitty and Astrovim settings, make sure you have them downloaded, or run this commmand:
+
+```
+brew install neovim
+brew install --cask kitty 
+mv ~/.config/nvim ~/.config/nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+nvim
+```
+
+^ installs Kitty terminal, Neovim and Astrovim
+
+--- 
+
 Once you've installed the dependencies, download this repository to your downloads folder and unzip it.
 
 Then, run this command:
