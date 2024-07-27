@@ -9,7 +9,7 @@ Inspired heavily by the dotfiles of sketchybar creator [Felix Kratz](https://git
 
 # Dependencies
 
-This repo only runs on MacOS, with me currently runninf Sonoma 14.5.
+This repo only runs on MacOS, with me currently running Sonoma 14.5.
 
 You will need the following packages installed. Do this through homebrew using the following commands:
 
