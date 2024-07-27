@@ -4,8 +4,7 @@ My personal, gruvbox themed MacOS rice! [yabai + sketchybar + skhd]
 
 Inspired heavily by the dotfiles of sketchybar creator [Felix Kratz](https://github.com/FelixKratz).
 
-<img width="1440" alt="Screenshot 2024-07-05 at 20 34 30" src="https://github.com/EbrietanPhasmid/dotfiles/assets/172548450/1909891b-1fc9-4ed6-aba3-69a451a5944a">
-
+<img width="1440" alt="Screenshot 2024-07-27 at 13 29 51" src="https://github.com/user-attachments/assets/330d5f1e-6283-450b-b483-1c7de4f92712">
 
 # Dependencies
 
@@ -42,11 +41,7 @@ nvim
 
 Once you've installed the dependencies, download this repository to your downloads folder and unzip it.
 
-Then, run this command:
-
-```
-mv -rf ~/Downloads/dotfiles-main/gruvbox-dot-master/* ~/.config/
-```
+Then move the config files into your ~/.config folder.
 
 The config files should be successfully installed.
 
