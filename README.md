@@ -1,6 +1,6 @@
 # My Dotfiles 
 
-My personal, gruvbox themed MacOS rice! [yabai + sketchybar + skhd]
+My personal, gruvbox themed MacOS rice. [yabai + sketchybar + skhd]
 
 Inspired heavily by the dotfiles of sketchybar creator [Felix Kratz](https://github.com/FelixKratz).
 
